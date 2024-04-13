@@ -1,41 +1,55 @@
-# Crowdfunding DApp on Hedera Testnet
+#Iqraa Donation Platform
+Welcome to the Iqraa Donation Platform README! This platform enables seamless donations within the Iqraa Islamic guide app using Hedera Hashgraph and React.
 
-This decentralized application (DApp) is a crowdfunding platform built upon the Hedera testnet network. It allows users to create, contribute to, and manage crowdfunding campaigns securely using blockchain technology.
+Table of Contents
+Introduction
+Features
+Getting Started
+Usage
+Contributing
+License
+Introduction
+The Iqraa Donation Platform is a secure and efficient system integrated within the Iqraa app, facilitating donations for various Islamic causes. Built on Hedera Hashgraph for its speed, security, and scalability, and utilizing React for the user interface, this platform ensures a smooth and reliable donation experience.
 
-site Link : https://ronak-crowd-funding.vercel.app
+Features
+Secure Transactions: Utilizes Hedera Hashgraph's distributed ledger technology for secure and transparent transactions.
+User-Friendly Interface: Built with React to provide an intuitive and easy-to-use donation process.
+Customizable Donation Options: Allows users to choose from a variety of donation options and causes within the Iqraa app.
+Getting Started
+To get started with the Iqraa Donation Platform, follow these steps:
 
-## Features
-### Campaign Creation: 
-Users can create new crowdfunding campaigns by providing details such as title, description, funding goal, and duration.
+Clone the Repository:
+git clone https://github.com/bechir105/IqraaDonation.git
 
-### Campaign Contribution: 
-Contributors can browse existing campaigns and contribute funds to support projects they're interested in.
+Install Dependencies:
+cd web3
+npm install
 
-### Transparent and Immutable: 
-Utilizes blockchain technology to ensure transparency, immutability, and security of all transactions and campaign details.
+cd ..
 
-## Technologies Used
-### React: 
-Frontend development framework for building user interfaces.
+cd client
+npm install
 
-### Solidity: 
-Backend smart contract language for implementing business logic on the blockchain.
+Set Up Hedera Account:
+Sign up for a Hedera account and obtain your private key.
 
-### Thirdweb: 
-Utilized for interaction with the Hedera testnet network and deployment of smart contracts.
+Configure Environment Variables:
+Create a .env file in the root directory and add your private key:
 
-## Contributing
-Contributions are welcome! Please fork this repository and create a pull request with your proposed changes.
+makefile
+PRIVATE_KEY=your_private_key
 
-## Screenshots
-### Homepage
-![Home page](https://github.com/Ronak1257/Crowd-Funding/assets/130481625/eae815ef-b52c-4d20-9d5f-a2c97b0ad343)
+Start the Application:
+npm run dev
 
-### User Campaign Page
-![User campaign](https://github.com/Ronak1257/Crowd-Funding/assets/130481625/a6778de2-6f44-4785-8a36-b8992c35960c)
+Deploy the Application:
+cd web3
+npm run deploy
 
-### Create Campaign Page
-![create campaign](https://github.com/Ronak1257/Crowd-Funding/assets/130481625/7b850cb3-3628-40c2-9a46-c18e9e1644e9)
+cd ..
 
-### Campaign Detail Page
-![campaigns details](https://github.com/Ronak1257/Crowd-Funding/assets/130481625/248cd8e1-a91b-4212-958f-2800f4074b77)
+cd client
+npm run deploy
+
+Usage
+Once the application is up and running, users can access the donation platform within the Iqraa app. They can select their desired cause, enter the donation amount, and complete the transaction securely.
