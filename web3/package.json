@@ -11,7 +11,11 @@
   },
   "dependencies": {
     "@thirdweb-dev/contracts": "^3.8.0",
+    "crypto": "^1.0.1",
     "dotenv": "^16.4.5",
+    "install": "^0.13.0",
+    "npm": "^10.7.0",
+    "path": "^0.12.7",
     "zksync-web3": "^0.14.3"
   }
 }
